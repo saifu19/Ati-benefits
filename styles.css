@@ -1,0 +1,109 @@
+body {
+    background-image: url("flowers.jpg");
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#here {
+    color: #7EB4DB;
+}
+#here:hover {
+    text-decoration: underline;
+    color: #7EB4DB;
+}
+.bg-blue {
+    background-color: #024985;
+}
+.bg-white {
+    background-color: white;
+}
+.padding-x {
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+.padding-y {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.dropdown:hover .dropdown-menu {
+    display: block !important;
+}
+#video {
+    padding-left: 20vw;
+    padding-right: 20vw;
+}
+.line {
+    height: 1px;
+    width: 100px;
+    background-color: #bbb;
+}
+#icons {
+    border-bottom: 1px solid #bbb;
+}
+.icon {
+    padding: 30px;
+    border: 1px solid #bbb;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+.text-icon {
+    color: #09347A;
+}
+.card-parent {
+    height: 45vh;
+    /* width: 33%; */
+    overflow: hidden;
+    cursor: pointer;
+    background-position: center center;
+    background-size: cover;
+    border: 1px solid white;
+}
+.card-child {
+    /* height: 33vh; */
+    color: white;
+}
+.card-parent:hover .card-child {
+    transform: scale(1.2);
+    background-color: #024985;
+    opacity: 0.8;
+}
+.card-child {
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    transition: all .5s;
+}
+.card-parent:hover .hidden-text, .card-parent:focus .hidden-text {
+    opacity: 1;
+}
+.hidden-text {
+    opacity: 0;
+    transition: all 0.5s;
+}
+.text-white {
+    color: white;
+}
+#offer {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.bg-blue {
+    background-color: #09347A;
+    color: white;
+}
+.footer-text {
+    font-size: 12px;
+}
+@media screen and (max-width: 576px) {
+    .padding-x, #video {
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+    iframe {
+        height: 50vh !important;
+    }
+    .padding-y {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
